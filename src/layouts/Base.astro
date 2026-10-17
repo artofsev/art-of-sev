@@ -1,0 +1,158 @@
+---
+import '../styles/global.css';
+import { Image } from 'astro:assets';
+import logo from '../assets/logo-art-of-sev.png';
+import { SITE } from '../site';
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+}
+const { title, description, image } = Astro.props;
+const fullTitle = title === SITE.nom ? `${SITE.nom} · Artiste à ${SITE.ville}, près de Lyon` : `${title} · ${SITE.nom}`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL(image ?? '/icon-512.png', Astro.site);
+const path = Astro.url.pathname;
+
+const liens = [
+  { href: '/', nom: 'Accueil' },
+  { href: '/galerie/', nom: 'Galerie' },
+  { href: '/a-propos/', nom: 'À propos' },
+  { href: '/contact/', nom: 'Contact' },
+];
+const estActif = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: SITE.nom,
+  jobTitle: 'Artiste : dessin, peinture, sculpture, bijoux et objets décoratifs',
+  url: Astro.site?.toString(),
+  email: SITE.email,
+  sameAs: [SITE.instagram],
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: SITE.ville,
+    postalCode: '69570',
+    addressRegion: 'Auvergne-Rhône-Alpes',
+    addressCountry: 'FR',
+  },
+  areaServed: ['Lyon', 'Dardilly', 'Rhône'],
+};
+---
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta name="theme-color" content="#0b6e73" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content={SITE.nom} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+  <body>
+    <a class="skip" href="#contenu">Aller au contenu</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="/" class="brand" aria-label={`${SITE.nom}, accueil`}>
+          <Image src={logo} alt="" width={64} height={64} densities={[1, 2]} loading="eager" />
+          <span class="brand-name">{SITE.nom}</span>
+        </a>
+        <nav aria-label="Menu principal">
+          <ul>
+            {liens.map((l) => (
+              <li><a href={l.href} aria-current={estActif(l.href) ? 'page' : undefined}>{l.nom}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenu">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <Image src={logo} alt="" width={72} height={72} densities={[1, 2]} />
+          <div>
+            <p class="footer-name">{SITE.nom}</p>
+            <p>Dessin, peinture, sculpture, bijoux<br />Artiste à {SITE.ville}, {SITE.region}</p>
+          </div>
+        </div>
+        <ul class="footer-links">
+          <li><a href={SITE.instagram} rel="noopener" target="_blank">Instagram {SITE.instagramPseudo}</a></li>
+          <li><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
+          <li><a href="/mentions-legales/">Mentions légales</a></li>
+        </ul>
+      </div>
+      <p class="container copyright">© {new Date().getFullYear()} {SITE.nom}. Toutes les œuvres sont protégées par le droit d'auteur.</p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .skip { position: absolute; left: -999px; top: 8px; background: var(--ink); color: #fff; padding: 8px 14px; border-radius: 8px; z-index: 10; }
+  .skip:focus { left: 12px; }
+
+  .site-header {
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+    position: sticky;
+    top: 0;
+    z-index: 5;
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px 20px;
+    flex-wrap: wrap;
+    padding-block: 8px;
+  }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); }
+  .brand img { width: 52px; height: 52px; }
+  .brand-name { font-family: var(--f-title); font-size: 1.3rem; font-weight: 600; }
+  nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 0; padding: 0; }
+  nav a {
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 0;
+    border-bottom: 2px solid transparent;
+  }
+  nav a:hover { color: var(--pink); }
+  nav a[aria-current='page'] { border-bottom-color: var(--pink); }
+
+  @media (max-width: 560px) {
+    .header-inner { justify-content: center; }
+    .brand-name { display: none; }
+    nav ul { gap: 4px 16px; justify-content: center; }
+    nav a { font-size: 0.95rem; }
+  }
+
+  .site-footer { background: var(--teal-dark); color: #e3f1f0; padding-block: 44px 20px; margin-top: 0; }
+  .site-footer a { color: #fff; }
+  .site-footer a:hover { color: #ffc6a0; }
+  .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 24px; }
+  .footer-brand { display: flex; gap: 16px; align-items: center; }
+  .footer-brand img { background: #fff; border-radius: 50%; padding: 4px; width: 72px; height: 72px; }
+  .footer-brand p { margin: 0; }
+  .footer-name { font-family: var(--f-title); font-size: 1.3rem; color: #fff; }
+  .footer-links { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+  .copyright { font-size: 0.85rem; opacity: 0.8; margin-top: 28px; margin-bottom: 0; }
+</style>

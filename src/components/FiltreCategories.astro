@@ -1,0 +1,21 @@
+---
+import { CATEGORIES } from '../site';
+interface Props { actif?: string }
+const { actif } = Astro.props;
+---
+<nav class="filtres" aria-label="Catégories">
+  <a href="/galerie/" aria-current={!actif ? 'page' : undefined}>Tout</a>
+  {CATEGORIES.map((c) => (
+    <a href={`/galerie/${c.id}/`} aria-current={actif === c.id ? 'page' : undefined}>{c.nom}</a>
+  ))}
+</nav>
+
+<style>
+  .filtres { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 36px; }
+  .filtres a {
+    padding: 0.45em 1.1em; border-radius: 999px; border: 1.5px solid var(--line);
+    color: var(--ink); text-decoration: none; font-weight: 600; font-size: 0.95rem; background: var(--surface);
+  }
+  .filtres a:hover { border-color: var(--pink); color: var(--pink); }
+  .filtres a[aria-current='page'] { background: var(--teal); border-color: var(--teal); color: #fff; }
+</style>

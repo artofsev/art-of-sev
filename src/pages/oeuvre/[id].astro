@@ -1,0 +1,69 @@
+---
+import { Picture, getImage } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import { CATEGORIES } from '../../site';
+import { toutesLesOeuvres } from '../../oeuvres';
+import { render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const oeuvres = await toutesLesOeuvres();
+  return oeuvres.map((o) => ({ params: { id: o.id }, props: { oeuvre: o } }));
+}
+const { oeuvre } = Astro.props;
+const d = oeuvre.data;
+const cat = CATEGORIES.find((c) => c.id === d.categorie)!;
+const { Content } = await render(oeuvre);
+const partage = await getImage({ src: d.image, width: 1200, format: 'jpg' });
+const sujet = encodeURIComponent(d.titre);
+---
+<Base
+  title={`${d.titre}, ${cat.nom.toLowerCase()}`}
+  description={`« ${d.titre} »${d.technique ? `, ${d.technique.toLowerCase()}` : ''}. ${cat.nom} par Art of Sev, artiste à Dardilly près de Lyon.`}
+  image={partage.src}
+>
+  <section class="section">
+    <div class="container">
+      <p class="fil"><a href="/galerie/">Galerie</a> › <a href={`/galerie/${cat.id}/`}>{cat.nom}</a></p>
+      <div class="oeuvre">
+        <div class="visuel">
+          <Picture
+            src={d.image}
+            alt={`${d.titre}, ${d.technique ?? cat.nom} par Art of Sev`}
+            widths={[480, 800, 1200, 1600]}
+            sizes="(max-width: 860px) 92vw, 640px"
+            formats={['avif', 'webp']}
+            loading="eager"
+          />
+        </div>
+        <div class="details">
+          <p class="eyebrow">{cat.nom}</p>
+          <h1>{d.titre}</h1>
+          <dl>
+            {d.technique && <><dt>Technique</dt><dd>{d.technique}</dd></>}
+            {d.dimensions && <><dt>Dimensions</dt><dd>{d.dimensions}</dd></>}
+            {d.annee && <><dt>Année</dt><dd>{d.annee}</dd></>}
+            <dt>Statut</dt><dd>{d.disponible ? 'Disponible à la vente' : 'Vendue ou non disponible'}</dd>
+          </dl>
+          <div class="texte"><Content /></div>
+          <div class="btn-row">
+            <a class="btn" href={`/contact/?oeuvre=${sujet}`}>
+              {d.disponible ? 'Je suis intéressé(e)' : 'Commander une création similaire'}
+            </a>
+            <a class="btn btn--ghost" href={`/galerie/${cat.id}/`}>Retour à {cat.nom.toLowerCase()}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .fil { color: var(--muted); font-size: 0.95rem; }
+  .oeuvre { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 40px; align-items: start; }
+  @media (max-width: 860px) { .oeuvre { grid-template-columns: 1fr; gap: 24px; } }
+  .visuel :global(img) { width: 100%; border-radius: var(--radius); background: var(--soft); }
+  dl { display: grid; grid-template-columns: auto 1fr; gap: 6px 18px; margin: 0 0 20px; }
+  dt { color: var(--muted); }
+  dd { margin: 0; font-weight: 600; }
+  .texte { margin-bottom: 24px; }
+</style>

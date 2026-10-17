@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../site';
+---
+<Base title="Mentions légales" description="Mentions légales du site Art of Sev.">
+  <section class="section">
+    <div class="container prose">
+      <h1>Mentions légales</h1>
+      <h2>Éditrice du site</h2>
+      <p>{SITE.nom}, artiste à {SITE.ville} (69570).<br />Nom et prénom : <em>à compléter</em><br />N° SIRET : <em>à compléter si vous en avez un</em><br />Contact : {SITE.email}</p>
+      <h2>Hébergement</h2>
+      <p>Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis, vercel.com.</p>
+      <h2>Droits d'auteur</h2>
+      <p>Toutes les œuvres, photos et textes de ce site appartiennent à {SITE.nom}. Toute reproduction sans autorisation écrite est interdite.</p>
+      <h2>Données personnelles</h2>
+      <p>Les informations envoyées par le formulaire de contact (nom, e-mail, message) servent uniquement à répondre à votre demande. Elles transitent par le service Formspree et ne sont jamais revendues. Vous pouvez demander leur suppression à tout moment par e-mail.</p>
+      <p>Ce site n'utilise pas de cookies publicitaires ni de mesure d'audience.</p>
+    </div>
+  </section>
+</Base>

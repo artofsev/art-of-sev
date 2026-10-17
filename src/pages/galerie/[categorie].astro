@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import Grille from '../../components/Grille.astro';
+import FiltreCategories from '../../components/FiltreCategories.astro';
+import { CATEGORIES } from '../../site';
+import { toutesLesOeuvres } from '../../oeuvres';
+
+export function getStaticPaths() {
+  return CATEGORIES.map((c) => ({ params: { categorie: c.id }, props: { cat: c } }));
+}
+const { cat } = Astro.props;
+const oeuvres = (await toutesLesOeuvres()).filter((o) => o.data.categorie === cat.id);
+---
+<Base
+  title={`${cat.nom}`}
+  description={`${cat.nom} par Art of Sev, artiste à Dardilly près de Lyon. ${cat.intro}`}
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Galerie</p>
+      <h1>{cat.nom}</h1>
+      <p class="lead">{cat.intro}</p>
+      <FiltreCategories actif={cat.id} />
+      {oeuvres.length > 0 ? <Grille oeuvres={oeuvres} /> : <p>Les premières œuvres arrivent bientôt.</p>}
+    </div>
+  </section>
+</Base>

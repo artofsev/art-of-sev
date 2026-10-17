@@ -1,0 +1,40 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import logo from '../assets/logo-art-of-sev.png';
+---
+<Base
+  title="À propos"
+  description="Qui est Sev, l'artiste derrière Art of Sev ? Parcours et démarche d'une créatrice installée à Dardilly, près de Lyon."
+>
+  <section class="section">
+    <div class="container apropos">
+      <div class="portrait">
+        <!-- Remplacer par votre photo : voir le guide AJOUTER-UNE-OEUVRE.md -->
+        <Image src={logo} alt="Art of Sev" widths={[320, 480]} sizes="(max-width: 760px) 70vw, 380px" />
+      </div>
+      <div class="prose">
+        <p class="eyebrow">À propos</p>
+        <h1>Bonjour, je suis Sev</h1>
+        <p class="lead">Artiste installée à Dardilly, près de Lyon, je dessine, je peins, je sculpte et je crée des bijoux et de petits objets décoratifs.</p>
+        <h2>Mon parcours</h2>
+        <p>Texte provisoire : racontez ici comment vous avez commencé, ce qui vous a menée vers l'art, vos formations ou vos rencontres importantes.</p>
+        <h2>Ma démarche</h2>
+        <p>Texte provisoire : ce qui vous inspire (la nature, les couleurs, les animaux…), vos matériaux préférés, ce que vous voulez transmettre à travers vos créations.</p>
+        <h2>Où me trouver</h2>
+        <p>Texte provisoire : expositions, marchés de créateurs, ateliers à Lyon et dans l'Ouest lyonnais.</p>
+        <a class="btn" href="/contact/">Me contacter</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .apropos { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); gap: 48px; align-items: start; }
+  .portrait :global(img) { width: 100%; max-width: 380px; margin-inline: auto; }
+  @media (max-width: 760px) {
+    .apropos { grid-template-columns: 1fr; gap: 24px; }
+    .portrait :global(img) { max-width: 240px; }
+  }
+  h2 { margin-top: 1.4em; }
+</style>

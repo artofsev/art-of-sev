@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import Grille from '../../components/Grille.astro';
+import FiltreCategories from '../../components/FiltreCategories.astro';
+import { CATEGORIES } from '../../site';
+import { toutesLesOeuvres } from '../../oeuvres';
+
+const oeuvres = await toutesLesOeuvres();
+---
+<Base
+  title="Galerie"
+  description="Galerie d'Art of Sev, artiste près de Lyon : dessins, peintures, sculptures, bijoux et objets décoratifs faits main."
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Galerie</p>
+      <h1>Toutes mes créations</h1>
+      <p class="lead">Cliquez sur une œuvre pour la voir en grand et connaître ses détails.</p>
+      <FiltreCategories />
+      {CATEGORIES.map((c) => {
+        const liste = oeuvres.filter((o) => o.data.categorie === c.id);
+        return liste.length > 0 && (
+          <section class="bloc" aria-labelledby={`t-${c.id}`}>
+            <div class="bloc-tete">
+              <h2 id={`t-${c.id}`}>{c.nom}</h2>
+              <a href={`/galerie/${c.id}/`}>Voir la catégorie</a>
+            </div>
+            <Grille oeuvres={liste} />
+          </section>
+        );
+      })}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .bloc + .bloc { margin-top: 64px; }
+  .bloc-tete { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; margin-bottom: 20px; }
+  .bloc-tete h2 { margin: 0; }
+</style>
