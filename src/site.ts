@@ -4,7 +4,7 @@ export const SITE = {
   artiste: 'Sev',
   ville: 'Dardilly',
   region: 'près de Lyon (Rhône)',
-  email: 'contact@exemple.fr',
+  email: 'severine.marchetti@yahoo.com',
   instagram: 'https://www.instagram.com/',
   instagramPseudo: '@artofsev',
   // Identifiant Formspree (ex. "xyzabcd") : voir la page Contact.
