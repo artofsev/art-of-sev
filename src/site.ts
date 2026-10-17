@@ -14,6 +14,7 @@ export const SITE = {
 export const CATEGORIES = [
   { id: 'dessin', nom: 'Dessin', intro: 'Crayon, encre et pastel : le trait dans tous ses états.' },
   { id: 'peinture', nom: 'Peinture', intro: 'Acrylique, aquarelle et couleurs franches sur toile et papier.' },
+  { id: 'textile', nom: 'Textile', intro: 'Tissus, fils et broderies : des pièces uniques faites main.' },
   { id: 'sculpture', nom: 'Sculpture', intro: 'Des formes modelées à la main, en argile, plâtre ou terre cuite.' },
   { id: 'bijoux', nom: 'Bijoux', intro: 'Des bijoux uniques, colorés et faits main.' },
   { id: 'objets-deco', nom: 'Objets décoratifs', intro: 'De petits objets peints et façonnés pour égayer la maison.' },

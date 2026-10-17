@@ -27,7 +27,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Person',
   name: SITE.nom,
-  jobTitle: 'Artiste : dessin, peinture, sculpture, bijoux et objets décoratifs',
+  jobTitle: 'Artiste : dessin, peinture, textile, sculpture, bijoux et objets décoratifs',
   url: Astro.site?.toString(),
   email: SITE.email,
   sameAs: [SITE.instagram],
@@ -91,7 +91,7 @@ const jsonLd = {
           <Image src={logo} alt="" width={72} height={72} densities={[1, 2]} />
           <div>
             <p class="footer-name">{SITE.nom}</p>
-            <p>Dessin, peinture, sculpture, bijoux<br />Artiste à {SITE.ville}, {SITE.region}</p>
+            <p>Dessin, peinture, textile, sculpture, bijoux<br />Artiste à {SITE.ville}, {SITE.region}</p>
           </div>
         </div>
         <ul class="footer-links">

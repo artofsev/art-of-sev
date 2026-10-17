@@ -12,7 +12,7 @@ const couverture = (id: string) => oeuvres.find((o) => o.data.categorie === id);
 ---
 <Base
   title={SITE.nom}
-  description="Art of Sev, artiste à Dardilly près de Lyon : dessin, peinture, sculpture, bijoux et objets décoratifs faits main. Œuvres à vendre et créations sur commande."
+  description="Art of Sev, artiste à Dardilly près de Lyon : dessin, peinture, textile, sculpture, bijoux et objets décoratifs faits main. Œuvres à vendre et créations sur commande."
 >
   <section class="hero">
     <div class="container hero-inner">
@@ -20,7 +20,7 @@ const couverture = (id: string) => oeuvres.find((o) => o.data.categorie === id);
         <p class="eyebrow">Artiste à Dardilly, près de Lyon</p>
         <h1>Des créations faites main, pleines de couleurs</h1>
         <p class="lead">
-          Dessin, peinture, sculpture, bijoux et petits objets décoratifs : chaque pièce est unique.
+          Dessin, peinture, textile, sculpture, bijoux et petits objets décoratifs : chaque pièce est unique.
           Découvrez mon univers, achetez une œuvre ou commandez une création sur mesure.
         </p>
         <div class="btn-row">
@@ -44,7 +44,7 @@ const couverture = (id: string) => oeuvres.find((o) => o.data.categorie === id);
   <section class="section section--soft">
     <div class="container">
       <p class="eyebrow">Mes univers</p>
-      <h2>Cinq façons de créer</h2>
+      <h2>Six façons de créer</h2>
       <div class="univers">
         {CATEGORIES.map((c) => {
           const o = couverture(c.id);
