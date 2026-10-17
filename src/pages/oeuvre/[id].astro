@@ -42,6 +42,7 @@ const sujet = encodeURIComponent(d.titre);
             {d.technique && <><dt>Technique</dt><dd>{d.technique}</dd></>}
             {d.dimensions && <><dt>Dimensions</dt><dd>{d.dimensions}</dd></>}
             {d.annee && <><dt>Année</dt><dd>{d.annee}</dd></>}
+            {d.prix && d.disponible && <><dt>Prix</dt><dd>{d.prix} €</dd></>}
             <dt>Statut</dt><dd>{d.disponible ? 'Disponible à la vente' : 'Vendue ou non disponible'}</dd>
           </dl>
           <div class="texte"><Content /></div>

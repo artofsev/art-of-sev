@@ -11,6 +11,7 @@ const oeuvres = defineCollection({
       annee: z.number().optional(),
       technique: z.string().optional(),
       dimensions: z.string().optional(),
+      prix: z.number().optional(),
       disponible: z.boolean().default(false),
       accueil: z.boolean().default(false),
       ordre: z.number().default(0),
