@@ -1,7 +1,7 @@
 ---
-titre: "Le Vieux Lyon"
+titre: "Lyon by Sev"
 categorie: peinture
-image: ./vieux-lyon.webp
+image: ./lyon-by-sev.webp
 technique: "Encre et peinture sur toile"
 dimensions: "60 × 60 cm"
 prix: 400
