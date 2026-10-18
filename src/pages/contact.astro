@@ -1,113 +1,92 @@
 ---
 import Base from '../layouts/Base.astro';
 import { SITE } from '../site';
+
+const sujetParDefaut = 'Demande depuis le site Sev Créations';
+const mailto = `mailto:${SITE.email}?subject=${encodeURIComponent(sujetParDefaut)}`;
 ---
 <Base
   title="Contact"
-  description="Contactez Sev Créations, artiste à Dardilly près de Lyon : achat d'une œuvre, création sur commande, exposition ou simple question."
+  description="Contactez Sev Créations, artiste à Dardilly près de Lyon : achat d'une œuvre, création sur commande, cours, exposition ou simple question."
 >
   <section class="section">
     <div class="container contact">
       <div>
         <p class="eyebrow">Contact</p>
         <h1>Écrivez-moi</h1>
-        <p class="lead">Une œuvre vous plaît, vous avez une idée de création sur mesure ou une question ? Je vous réponds avec plaisir.</p>
+        <p class="lead">Une œuvre vous plaît, vous avez une idée de création sur mesure, une question sur les cours ? Je vous réponds avec plaisir.</p>
         <ul class="coord">
-          <li><span>E-mail</span><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
-          {SITE.instagram && <li><span>Instagram</span><a href={SITE.instagram} target="_blank" rel="noopener">{SITE.instagramPseudo}</a></li>}
           <li><span>Atelier</span>{SITE.ville}, {SITE.region}</li>
+          {SITE.instagram && <li><span>Instagram</span><a href={SITE.instagram} target="_blank" rel="noopener">{SITE.instagramPseudo}</a></li>}
         </ul>
       </div>
 
-      <form id="formulaire" class="formulaire" action={`https://formsubmit.co/ajax/${SITE.email}`} method="POST">
-        <label for="nom">Votre nom</label>
-        <input id="nom" name="nom" type="text" autocomplete="name" required />
-
-        <label for="email">Votre e-mail</label>
-        <input id="email" name="email" type="email" autocomplete="email" required />
-
-        <label for="sujet">Votre demande</label>
-        <select id="sujet" name="sujet">
-          <option>Acheter une œuvre</option>
-          <option>Commander une création</option>
-          <option>Cours ou animation</option>
-          <option>Exposition ou partenariat</option>
-          <option>Autre question</option>
-        </select>
-
-        <label for="message">Votre message</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
-
-        <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none" />
-        <input type="hidden" name="_subject" value="Nouveau message depuis le site Sev Créations" />
-        <input type="hidden" name="_template" value="table" />
-
-        <button class="btn" type="submit">Envoyer</button>
+      <div class="carte-mail">
+        <h2>Par e-mail</h2>
+        <p>Cliquez sur le bouton : votre messagerie s'ouvre avec mon adresse déjà remplie.</p>
+        <a id="ecrire" class="btn" href={mailto} data-email={SITE.email} data-sujet={sujetParDefaut}>M'écrire un e-mail</a>
+        <p class="ou">ou copiez mon adresse :</p>
+        <div class="adresse">
+          <span id="adresse">{SITE.email}</span>
+          <button id="copier" type="button" class="btn btn--ghost">Copier</button>
+        </div>
         <p id="statut" class="statut" role="status"></p>
-      </form>
+        <p class="astuce">Pour une demande sur une œuvre, n'hésitez pas à indiquer son titre. Pour une commande, décrivez votre idée : taille, couleurs, délai.</p>
+      </div>
     </div>
   </section>
 </Base>
 
 <script>
-  const form = document.getElementById('formulaire') as HTMLFormElement;
-  const statut = document.getElementById('statut')!;
-  const message = document.getElementById('message') as HTMLTextAreaElement;
-  const sujet = document.getElementById('sujet') as HTMLSelectElement;
-
-  // Arrivée depuis une œuvre : on prépare le message.
+  const lien = document.getElementById('ecrire') as HTMLAnchorElement;
+  const email = lien.dataset.email!;
   const params = new URLSearchParams(location.search);
-  if (params.get('sujet') === 'cours') sujet.value = 'Cours ou animation';
   const oeuvre = params.get('oeuvre');
-  if (oeuvre) {
-    sujet.value = 'Acheter une œuvre';
-    message.value = `Bonjour, je suis intéressé(e) par l'œuvre « ${oeuvre} ».\n`;
-  }
+  let sujet = lien.dataset.sujet!;
+  let corps = '';
 
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const bouton = form.querySelector('button')!;
-    bouton.disabled = true;
-    statut.textContent = 'Envoi en cours…';
+  // Arrivée depuis une œuvre ou la page Cours : on prépare le message.
+  if (oeuvre) {
+    sujet = `Œuvre « ${oeuvre} »`;
+    corps = `Bonjour, je suis intéressé(e) par l'œuvre « ${oeuvre} ».\n\n`;
+  } else if (params.get('sujet') === 'cours') {
+    sujet = 'Cours ou animation';
+    corps = 'Bonjour, je souhaite des informations sur vos cours / animations.\n\n';
+  }
+  lien.href = `mailto:${email}?subject=${encodeURIComponent(sujet)}${corps ? `&body=${encodeURIComponent(corps)}` : ''}`;
+
+  const statut = document.getElementById('statut')!;
+  document.getElementById('copier')!.addEventListener('click', async () => {
     try {
-      const rep = await fetch(form.action, {
-        method: 'POST',
-        body: new FormData(form),
-        headers: { Accept: 'application/json' },
-      });
-      const res = await rep.json().catch(() => ({}));
-      if (/activat/i.test(res.message ?? '')) {
-        statut.textContent = "Le formulaire doit d'abord être activé : un lien d'activation vient d'être envoyé à l'adresse de l'artiste.";
-        return;
-      }
-      if (!rep.ok || String(res.success) === 'false') throw new Error();
-      form.reset();
-      statut.textContent = 'Merci ! Votre message est bien envoyé. Je vous réponds au plus vite.';
+      await navigator.clipboard.writeText(email);
+      statut.textContent = 'Adresse copiée !';
     } catch {
-      statut.textContent = "Le message n'a pas pu partir. Réessayez ou écrivez-moi directement par e-mail.";
-    } finally {
-      bouton.disabled = false;
+      const sel = window.getSelection();
+      const range = document.createRange();
+      range.selectNodeContents(document.getElementById('adresse')!);
+      sel?.removeAllRanges();
+      sel?.addRange(range);
+      statut.textContent = 'Adresse sélectionnée : faites Ctrl+C (ou Copier).';
     }
   });
 </script>
 
 <style>
-  .contact { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 48px; align-items: start; }
+  .contact { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 48px; align-items: start; }
   @media (max-width: 820px) { .contact { grid-template-columns: 1fr; gap: 28px; } }
   .coord { list-style: none; padding: 0; margin: 24px 0 0; display: grid; gap: 12px; }
   .coord li { display: grid; }
   .coord span { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
-  .coord a { overflow-wrap: anywhere; }
-  .formulaire {
-    display: grid; gap: 6px; background: var(--surface); border: 1px solid var(--line);
-    border-radius: var(--radius); padding: clamp(20px, 4vw, 32px);
+  .carte-mail {
+    display: grid; gap: 14px; justify-items: start; background: var(--surface); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: clamp(20px, 4vw, 32px); border-top: 5px solid var(--pink);
   }
-  label { font-weight: 600; margin-top: 10px; }
-  input, select, textarea {
-    font: inherit; color: var(--ink); background: var(--bg); width: 100%;
-    border: 1.5px solid var(--line); border-radius: 10px; padding: 0.7em 0.9em;
-  }
-  input:focus, select:focus, textarea:focus { border-color: var(--teal); outline: none; box-shadow: 0 0 0 3px rgba(11, 110, 115, 0.18); }
-  .formulaire .btn { margin-top: 18px; justify-self: start; }
-  .statut { margin: 8px 0 0; font-weight: 600; color: var(--teal); }
+  .carte-mail h2, .carte-mail p { margin: 0; }
+  .carte-mail > p { color: var(--muted); }
+  .ou { font-size: 0.95rem; }
+  .adresse { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+  .adresse span { font-weight: 600; overflow-wrap: anywhere; min-width: 0; }
+  .adresse .btn { padding: 0.45em 1.1em; }
+  .statut { font-weight: 600; color: var(--teal) !important; min-height: 1.5em; }
+  .astuce { font-size: 0.95rem; }
 </style>
