@@ -1,6 +1,6 @@
 // Informations générales du site : modifiez-les ici, elles s'appliquent partout.
 export const SITE = {
-  nom: 'Art of Sev',
+  nom: 'Sev Créations',
   artiste: 'Sev',
   ville: 'Dardilly',
   region: 'près de Lyon (Rhône)',

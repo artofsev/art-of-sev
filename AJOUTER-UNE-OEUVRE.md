@@ -1,4 +1,4 @@
-# Ajouter une œuvre sur le site Art of Sev
+# Ajouter une œuvre sur le site Sev Créations
 
 Environ 5 minutes, depuis un ordinateur (ça marche aussi sur téléphone, mais c'est moins confortable).
 Le site se met à jour tout seul environ 1 minute après.

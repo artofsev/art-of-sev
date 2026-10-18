@@ -18,7 +18,7 @@ const sujet = encodeURIComponent(d.titre);
 ---
 <Base
   title={`${d.titre}, ${cat.nom.toLowerCase()}`}
-  description={`« ${d.titre} »${d.technique ? `, ${d.technique.toLowerCase()}` : ''}. ${cat.nom} par Art of Sev, artiste à Dardilly près de Lyon.`}
+  description={`« ${d.titre} »${d.technique ? `, ${d.technique.toLowerCase()}` : ''}. ${cat.nom} par Sev Créations, artiste à Dardilly près de Lyon.`}
   image={partage.src}
 >
   <section class="section">
@@ -28,7 +28,7 @@ const sujet = encodeURIComponent(d.titre);
         <div class="visuel">
           <Picture
             src={d.image}
-            alt={`${d.titre}, ${d.technique ?? cat.nom} par Art of Sev`}
+            alt={`${d.titre}, ${d.technique ?? cat.nom} par Sev Créations`}
             widths={[480, 800, 1200, 1600]}
             sizes="(max-width: 860px) 92vw, 640px"
             formats={['avif', 'webp']}

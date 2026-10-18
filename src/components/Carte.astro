@@ -15,7 +15,7 @@ const categorie = CATEGORIES.find((c) => c.id === d.categorie)?.nom;
   <div class="cadre">
     <Picture
       src={d.image}
-      alt={`${d.titre}, ${d.technique ?? categorie} par Art of Sev`}
+      alt={`${d.titre}, ${d.technique ?? categorie} par Sev Créations`}
       widths={[360, 560, 800]}
       sizes="(max-width: 600px) 92vw, (max-width: 1000px) 46vw, 340px"
       formats={['avif', 'webp']}
