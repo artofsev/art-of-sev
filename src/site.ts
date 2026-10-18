@@ -5,8 +5,8 @@ export const SITE = {
   ville: 'Dardilly',
   region: 'près de Lyon (Rhône)',
   email: 'severine.marchetti@yahoo.com',
-  instagram: 'https://www.instagram.com/',
-  instagramPseudo: '@artofsev',
+  instagram: 'https://www.instagram.com/severine.marchetti/',
+  instagramPseudo: '@severine.marchetti',
 };
 
 export const CATEGORIES = [
