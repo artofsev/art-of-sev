@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base
+  title="Cours et animations"
+  description="Cours de dessin et de peinture, ateliers créatifs et animations artistiques avec Art of Sev, à Dardilly et dans l'Ouest lyonnais."
+>
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow">Cours et animations</p>
+      <h1>Créer ensemble</h1>
+      <p class="lead">J'aime partager ma passion. Je propose des cours, des ateliers créatifs et des animations, à Dardilly et dans la région lyonnaise, pour les débutants comme pour ceux qui veulent aller plus loin.</p>
+
+      <div class="offres">
+        <article class="offre">
+          <h2>Cours</h2>
+          <p>Dessin, peinture et techniques mixtes, en cours particulier ou en petit groupe. On avance à votre rythme, selon vos envies : apprendre les bases, oser la couleur, trouver votre style.</p>
+        </article>
+        <article class="offre">
+          <h2>Ateliers créatifs</h2>
+          <p>Des séances autour d'un thème ou d'une technique : peinture, textile, bijoux, petits objets décoratifs. Vous repartez avec votre création.</p>
+        </article>
+        <article class="offre">
+          <h2>Animations</h2>
+          <p>Anniversaires, événements, écoles, associations ou entreprises : j'anime des moments créatifs et colorés, adaptés à votre public et à votre lieu.</p>
+        </article>
+      </div>
+
+      <div class="pratique">
+        <h2>Infos pratiques</h2>
+        <ul>
+          <li><span>Lieu</span>Dardilly et alentours, ou chez vous selon le projet</li>
+          <li><span>Public</span>Enfants et adultes, tous niveaux</li>
+          <li><span>Tarifs</span>Sur demande, selon la formule et le nombre de participants</li>
+        </ul>
+        <a class="btn" href="/contact/?sujet=cours">Me demander des informations</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .offres { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 20px; margin-top: 36px; }
+  .offre { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; border-top: 5px solid var(--teal); }
+  .offre:nth-child(2) { border-top-color: var(--pink); }
+  .offre:nth-child(3) { border-top-color: var(--orange); }
+  .offre p { margin: 0; color: var(--muted); }
+  .pratique { margin-top: 48px; max-width: 65ch; }
+  .pratique ul { list-style: none; padding: 0; margin: 0 0 24px; display: grid; gap: 12px; }
+  .pratique li { display: grid; }
+  .pratique span { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+</style>

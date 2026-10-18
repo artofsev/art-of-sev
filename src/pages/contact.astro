@@ -30,6 +30,7 @@ import { SITE } from '../site';
         <select id="sujet" name="sujet">
           <option>Acheter une œuvre</option>
           <option>Commander une création</option>
+          <option>Cours ou animation</option>
           <option>Exposition ou partenariat</option>
           <option>Autre question</option>
         </select>
@@ -55,7 +56,9 @@ import { SITE } from '../site';
   const sujet = document.getElementById('sujet') as HTMLSelectElement;
 
   // Arrivée depuis une œuvre : on prépare le message.
-  const oeuvre = new URLSearchParams(location.search).get('oeuvre');
+  const params = new URLSearchParams(location.search);
+  if (params.get('sujet') === 'cours') sujet.value = 'Cours ou animation';
+  const oeuvre = params.get('oeuvre');
   if (oeuvre) {
     sujet.value = 'Acheter une œuvre';
     message.value = `Bonjour, je suis intéressé(e) par l'œuvre « ${oeuvre} ».\n`;
