@@ -35,7 +35,7 @@ const couverture = (id: string) => oeuvres.find((o) => o.data.categorie === id);
   <section class="section">
     <div class="container">
       <p class="eyebrow">À la une</p>
-      <h2>Quelques œuvres récentes</h2>
+      <h2>Mes dernières créations</h2>
       <Grille oeuvres={aLaUne} afficherCategorie />
       <p class="plus"><a class="btn btn--ghost" href="/galerie/">Toute la galerie</a></p>
     </div>
@@ -53,7 +53,7 @@ const couverture = (id: string) => oeuvres.find((o) => o.data.categorie === id);
               {o && (
                 <Picture src={o.data.image} alt="" widths={[300, 480]} sizes="(max-width: 600px) 46vw, 220px" formats={['avif', 'webp']} />
               )}
-              <span>{c.nom}</span>
+              <span class={o ? '' : 'seul'}>{c.nom}</span>
             </a>
           );
         })}
@@ -92,5 +92,8 @@ const couverture = (id: string) => oeuvres.find((o) => o.data.categorie === id);
     background: linear-gradient(transparent, rgba(20, 30, 32, 0.78));
     color: #fff; font-family: var(--f-title); font-size: 1.2rem; font-weight: 600;
   }
+  .tuile span.seul { inset: 0; display: grid; place-items: center; text-align: center; background: none; padding: 14px; }
+  .tuile:nth-child(3n + 2) { background: var(--pink); }
+  .tuile:nth-child(3n) { background: var(--orange); }
   .appel { text-align: center; display: grid; justify-items: center; }
 </style>
