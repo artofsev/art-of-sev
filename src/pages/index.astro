@@ -2,7 +2,7 @@
 import { Image, Picture } from 'astro:assets';
 import Base from '../layouts/Base.astro';
 import Grille from '../components/Grille.astro';
-import logo from '../assets/logo-art-of-sev.png';
+import logo from '../assets/logo-faucon.png';
 import { CATEGORIES, SITE } from '../site';
 import { toutesLesOeuvres } from '../oeuvres';
 
@@ -28,7 +28,7 @@ const couverture = (id: string) => oeuvres.find((o) => o.data.categorie === id);
           <a class="btn btn--ghost" href="/contact/">Me contacter</a>
         </div>
       </div>
-      <Image class="hero-logo" src={logo} alt="Logo Art of Sev" widths={[280, 420, 560]} sizes="(max-width: 760px) 70vw, 420px" loading="eager" />
+      <Image class="hero-logo" src={logo} alt="Logo Art of Sev" widths={[320, 480, 720, 960]} sizes="(max-width: 760px) 80vw, 480px" loading="eager" />
     </div>
   </section>
 
@@ -74,10 +74,10 @@ const couverture = (id: string) => oeuvres.find((o) => o.data.categorie === id);
   .hero { padding-block: clamp(32px, 6vw, 72px); }
   .hero-inner { display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; align-items: center; }
   .hero-texte { min-width: 0; }
-  .hero-logo { width: 100%; max-width: 420px; justify-self: center; }
+  .hero-logo { width: 100%; max-width: 480px; justify-self: center; }
   @media (max-width: 760px) {
     .hero-inner { grid-template-columns: 1fr; }
-    .hero-logo { order: -1; max-width: 260px; }
+    .hero-logo { order: -1; max-width: 320px; }
   }
   .plus { margin-top: 36px; text-align: center; }
   .univers { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: 16px; }
