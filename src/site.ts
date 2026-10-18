@@ -7,8 +7,6 @@ export const SITE = {
   email: 'severine.marchetti@yahoo.com',
   instagram: 'https://www.instagram.com/',
   instagramPseudo: '@artofsev',
-  // Identifiant Formspree (ex. "xyzabcd") : voir la page Contact.
-  formspreeId: 'VOTRE_ID_FORMSPREE',
 };
 
 export const CATEGORIES = [

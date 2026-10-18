@@ -19,7 +19,7 @@ import { SITE } from '../site';
         </ul>
       </div>
 
-      <form id="formulaire" class="formulaire" action={`https://formspree.io/f/${SITE.formspreeId}`} method="POST">
+      <form id="formulaire" class="formulaire" action={`https://formsubmit.co/ajax/${SITE.email}`} method="POST">
         <label for="nom">Votre nom</label>
         <input id="nom" name="nom" type="text" autocomplete="name" required />
 
@@ -37,7 +37,9 @@ import { SITE } from '../site';
         <label for="message">Votre message</label>
         <textarea id="message" name="message" rows="6" required></textarea>
 
-        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" />
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none" />
+        <input type="hidden" name="_subject" value="Nouveau message depuis le site Art of Sev" />
+        <input type="hidden" name="_template" value="table" />
 
         <button class="btn" type="submit">Envoyer</button>
         <p id="statut" class="statut" role="status"></p>
@@ -70,7 +72,12 @@ import { SITE } from '../site';
         body: new FormData(form),
         headers: { Accept: 'application/json' },
       });
-      if (!rep.ok) throw new Error();
+      const res = await rep.json().catch(() => ({}));
+      if (/activat/i.test(res.message ?? '')) {
+        statut.textContent = "Le formulaire doit d'abord être activé : un lien d'activation vient d'être envoyé à l'adresse de l'artiste.";
+        return;
+      }
+      if (!rep.ok || String(res.success) === 'false') throw new Error();
       form.reset();
       statut.textContent = 'Merci ! Votre message est bien envoyé. Je vous réponds au plus vite.';
     } catch {
