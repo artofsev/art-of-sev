@@ -30,7 +30,7 @@ const jsonLd = {
   jobTitle: 'Artiste : dessin, peinture, textile, sculpture, bijoux et objets décoratifs',
   url: Astro.site?.toString(),
   email: SITE.email,
-  sameAs: [SITE.instagram],
+  sameAs: SITE.instagram ? [SITE.instagram] : undefined,
   address: {
     '@type': 'PostalAddress',
     addressLocality: SITE.ville,
@@ -95,7 +95,7 @@ const jsonLd = {
           </div>
         </div>
         <ul class="footer-links">
-          <li><a href={SITE.instagram} rel="noopener" target="_blank">Instagram {SITE.instagramPseudo}</a></li>
+          {SITE.instagram && <li><a href={SITE.instagram} rel="noopener" target="_blank">Instagram {SITE.instagramPseudo}</a></li>}
           <li><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
           <li><a href="/mentions-legales/">Mentions légales</a></li>
         </ul>

@@ -14,7 +14,7 @@ import { SITE } from '../site';
         <p class="lead">Une œuvre vous plaît, vous avez une idée de création sur mesure ou une question ? Je vous réponds avec plaisir.</p>
         <ul class="coord">
           <li><span>E-mail</span><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
-          <li><span>Instagram</span><a href={SITE.instagram} target="_blank" rel="noopener">{SITE.instagramPseudo}</a></li>
+          {SITE.instagram && <li><span>Instagram</span><a href={SITE.instagram} target="_blank" rel="noopener">{SITE.instagramPseudo}</a></li>}
           <li><span>Atelier</span>{SITE.ville}, {SITE.region}</li>
         </ul>
       </div>
