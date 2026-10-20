@@ -11,7 +11,7 @@ export const SITE = {
 };
 
 export const CATEGORIES = [
-  { id: 'dessin', nom: 'Dessin', intro: 'Crayon, encre et pastel : le trait dans tous ses états.' },
+  { id: 'dessin', nom: 'Dessin', intro: 'Crayon, fusain et pastel : le trait dans tous ses états.' },
   { id: 'peinture', nom: 'Peinture', intro: 'Acrylique, aquarelle et couleurs franches sur toile et papier.' },
   { id: 'textile', nom: 'Textile', intro: 'Tissus, fils et broderies : des pièces uniques faites main.' },
   { id: 'sculpture', nom: 'Sculpture', intro: 'Des formes modelées à la main, en argile, plâtre ou terre cuite.' },
