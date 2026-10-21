@@ -14,8 +14,10 @@ ordre: 0
 
 Le clocher de Saint-Georges et les toits du Vieux Lyon émergent d'un ciel éclaboussé d'aquarelle bleue, rose et dorée : le trait fin à l'encre pose la ville, la couleur l'emporte. Une pièce vive et lumineuse, entre carnet de voyage et geste pop, signée par l'artiste.
 
-- **Support :** toile sur châssis (fourni)
-- **Tirage :** pièce unique, œuvre originale
-- **Signature :** signée par l'artiste
-
-**Cette œuvre est disponible à la Blach Gallery.**
+* Artiste : Séverine Marchetti (Instagram : @severine.marchetti)
+* Année : 2026
+* Dimensions : 60 × 60 × 4 cm
+* Support : Toile sur châssis (fourni)
+* Technique : Acrylique sur toile
+* Tirage : Pièce unique — œuvre originale
+* Signature : Signée par l'artiste
