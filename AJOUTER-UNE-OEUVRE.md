@@ -13,7 +13,7 @@ Le site se met à jour tout seul environ 1 minute après.
 
 ## Étape 2 : envoyer la photo sur GitHub
 
-1. Ouvrez https://github.com/artofsev/art-of-sev/tree/main/src/oeuvres
+1. Ouvrez https://github.com/artofsev/sev-creations/tree/main/src/oeuvres
 2. Cliquez sur **Add file** (en haut à droite), puis **Upload files**.
 3. Glissez votre photo dans la page (ou cliquez sur **choose your files**).
 4. En bas, cliquez sur le bouton vert **Commit changes**.
