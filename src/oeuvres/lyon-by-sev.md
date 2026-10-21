@@ -21,3 +21,5 @@ Le clocher de Saint-Georges et les toits du Vieux Lyon émergent d'un ciel écla
 * Technique : Acrylique sur toile
 * Tirage : Pièce unique — œuvre originale
 * Signature : Signée par l'artiste
+
+**Ce tableau est exposé à la Blach Gallery, à Dardilly.**
