@@ -1,8 +1,8 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
-// Quand vous aurez votre nom de domaine, remplacez l'adresse ci-dessous.
+// Adresse officielle du site (sev-créations.fr, écrit sans accent pour Internet).
 export default defineConfig({
-  site: 'https://art-of-sev.vercel.app',
+  site: 'https://www.xn--sev-crations-geb.fr',
   integrations: [sitemap()],
 });
