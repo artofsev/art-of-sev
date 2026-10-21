@@ -2,13 +2,20 @@
 titre: "Lyon by Sev"
 categorie: peinture
 image: ./lyon-by-sev.webp
-technique: "Acrylique et pastel sur toile"
-dimensions: "60 × 60 cm"
+technique: "Acrylique sur toile"
+dimensions: "60 × 60 × 4 cm"
+annee: 2026
 prix: 400
 disponible: true
 accueil: true
 ordre: 0
 ---
-Une vue des quais de Saône, avec le Vieux Lyon et la basilique de Fourvière sur la colline. J'ai d'abord dessiné chaque façade au pastel, puis j'ai laissé la couleur éclabousser le ciel et les maisons. Une toile pleine de joie, pour avoir un morceau de Lyon chez soi.
+Œuvre originale et pièce unique de Séverine Marchetti — Lyon, 2026.
+
+Le clocher de Saint-Georges et les toits du Vieux Lyon émergent d'un ciel éclaboussé d'aquarelle bleue, rose et dorée : le trait fin à l'encre pose la ville, la couleur l'emporte. Une pièce vive et lumineuse, entre carnet de voyage et geste pop, signée par l'artiste.
+
+- **Support :** toile sur châssis (fourni)
+- **Tirage :** pièce unique, œuvre originale
+- **Signature :** signée par l'artiste
 
 **Cette œuvre est disponible à la Blach Gallery.**
