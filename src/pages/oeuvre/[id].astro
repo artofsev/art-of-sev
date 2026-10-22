@@ -1,7 +1,7 @@
 ---
 import { Picture, getImage } from 'astro:assets';
 import Base from '../../layouts/Base.astro';
-import { CATEGORIES } from '../../site';
+import { CATEGORIES, SITE } from '../../site';
 import { toutesLesOeuvres } from '../../oeuvres';
 import { render } from 'astro:content';
 
@@ -46,6 +46,13 @@ const sujet = encodeURIComponent(d.titre);
             <dt>Statut</dt><dd>{d.disponible ? 'Disponible à la vente' : 'Vendue ou non disponible'}</dd>
           </dl>
           <div class="texte"><Content /></div>
+          {d.disponible && (
+            <div class="achat">
+              <p class="achat-titre">Comment acheter ?</p>
+              <p>Cliquez sur « Je suis intéressé(e) » : je vous réponds pour convenir de la livraison ou du retrait.</p>
+              <p><strong>Paiement :</strong> {SITE.paiement}</p>
+            </div>
+          )}
           <div class="btn-row">
             <a class="btn" href={`/contact/?oeuvre=${sujet}`}>
               {d.disponible ? 'Je suis intéressé(e)' : 'Commander une création similaire'}
@@ -67,4 +74,8 @@ const sujet = encodeURIComponent(d.titre);
   dt { color: var(--muted); }
   dd { margin: 0; font-weight: 600; }
   .texte { margin-bottom: 24px; }
+  .achat { background: var(--soft); border-radius: var(--radius); padding: 16px 20px; margin-bottom: 24px; font-size: 0.97rem; }
+  .achat p { margin: 0 0 6px; }
+  .achat p:last-child { margin: 0; }
+  .achat-titre { font-weight: 600; color: var(--teal); }
 </style>

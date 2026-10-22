@@ -4,6 +4,8 @@ export const SITE = {
   artiste: 'Sev',
   ville: 'Dardilly',
   region: 'près de Lyon (Rhône)',
+  // Moyens de paiement affichés sur les fiches des œuvres et la page Contact.
+  paiement: 'Virement bancaire, Wero ou espèces lors de la remise en main propre.',
   email: 'severine.marchetti@yahoo.com',
   // Laisser vide ('') pour masquer Instagram sur le site.
   instagram: '',
