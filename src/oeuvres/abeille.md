@@ -3,6 +3,7 @@ titre: "Abeille"
 categorie: bijoux
 image: ./abeille.jpg
 technique: "Bracelet macramé en fil ciré tressé"
+prix: 2
 disponible: true
 accueil: false
 ordre: 4
