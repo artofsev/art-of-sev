@@ -3,6 +3,7 @@ titre: "Confettis"
 categorie: bijoux
 image: ./confettis.jpg
 technique: "Bracelet macramé en coton ciré tressé, perles de verre"
+prix: 2
 disponible: true
 accueil: false
 ordre: 23
