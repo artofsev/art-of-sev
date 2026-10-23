@@ -25,6 +25,24 @@ RENDU : photographie réaliste de qualité professionnelle, pas d'effet dessin o
 
 ---
 
+## Prompt n° 1 bis : style « dentelle et fleurs séchées » (vue de dessus)
+
+```
+Retouche cette photo de bijou pour ma boutique en ligne « Sev Créations ».
+
+RÈGLE ABSOLUE : ne modifie PAS le bijou. Garde exactement sa forme, ses couleurs, ses perles, ses breloques, ses nœuds, ses matières, sa taille et ses proportions. N'ajoute et ne retire aucun élément du bijou.
+
+DÉCOR : photo vue de dessus (flat lay), ambiance romantique, bohème et poétique. Le bijou est posé bien à plat au centre, sur un napperon en dentelle ancienne crème, lui-même posé sur un papier artisanal ivoire. Autour, disposés harmonieusement sans toucher le bijou : fleurs séchées (immortelles roses et blanches, petits boutons de rose séchés, gypsophile, ombelles de carotte sauvage), épis d'herbes sèches, et quelques feuilles d'automne pressées (érable, chêne) dans des tons pêche, ocre et orangé. Une fine calligraphie à l'encre sépia en bas de l'image, discrète.
+
+LUMIÈRE : lumière naturelle douce et diffuse, comme près d'une fenêtre, sans ombre dure. Couleurs claires, pastel et lumineuses.
+
+CADRAGE : format vertical 3:4, bijou au centre occupant environ la moitié de l'image, net de bout en bout.
+
+RENDU : photographie réaliste de qualité professionnelle. Aucun texte lisible, aucun logo, aucun filigrane.
+```
+
+---
+
 ## Prompt n° 2 : la description
 
 Remplacez les informations entre crochets avant d'envoyer.
