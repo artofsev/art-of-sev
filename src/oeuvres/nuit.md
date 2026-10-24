@@ -18,4 +18,4 @@ Un bracelet élégant et mystérieux, comme un ciel d'hiver piqué d'étoiles. L
 
 Sobre et raffiné, il se porte aussi bien seul qu'accompagné d'autres bracelets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

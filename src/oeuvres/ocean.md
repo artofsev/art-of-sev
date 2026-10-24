@@ -16,4 +16,4 @@ Un bracelet qui sent les vacances et les plages de sable chaud. Le tressage bleu
 * **Des couleurs franches :** un turquoise lumineux qui se remarque au poignet.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

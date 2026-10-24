@@ -6,7 +6,7 @@ technique: "Bracelet macramé en coton ciré tressé, perles de verre"
 prix: 2
 disponible: true
 accueil: false
-ordre: 43
+ordre: 23
 ---
 Un bracelet tout en discrétion, comme des lucioles dans la nuit d'été. Sur un fin tressage noir, quelques petites perles de verre turquoise, vert tendre et ambre clair s'allument ici et là, bien espacées, pour un éclat léger et délicat.
 
@@ -17,4 +17,8 @@ Un bracelet tout en discrétion, comme des lucioles dans la nuit d'été. Sur un
 * **Fin et léger :** parfait seul, ou à accumuler avec d'autres bracelets.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+**Un joli duo avec Confettis**
+
+Lucioles a un grand frère : Confettis, présenté juste à côté. Même tressage noir, mêmes perles de verre, mais Confettis en est parsemé tout du long, jusqu'au bout des fils. Portés ensemble, l'un tout en douceur et l'autre plus pétillant, ils se répondent joliment au poignet. Un duo à s'offrir, ou à partager avec quelqu'un qu'on aime.
+
+Fait main dans mon atelier de Dardilly.

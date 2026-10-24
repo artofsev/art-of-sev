@@ -19,4 +19,4 @@ Un bracelet romantique aux couleurs d'un soir d'automne. Le tressage bordeaux me
 
 Une jolie idée cadeau, élégante et pleine de douceur.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

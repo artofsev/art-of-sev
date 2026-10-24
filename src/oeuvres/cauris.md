@@ -19,4 +19,4 @@ Un bracelet qui sent l'été, le sable chaud et les vagues. Trois coquillages ca
 
 Le compagnon idéal des vacances et des journées ensoleillées.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

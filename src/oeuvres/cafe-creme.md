@@ -16,4 +16,4 @@ Un bracelet doux et gourmand, aux couleurs d'un café crème. Le tressage altern
 * **Intemporel :** des couleurs neutres, faciles à porter au quotidien.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

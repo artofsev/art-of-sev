@@ -16,4 +16,4 @@ L'élégance de la simplicité. Ce bracelet tout en noir, au tressage serré et 
 * **Intemporel :** il s'accorde avec toutes les tenues, pour elle comme pour lui.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

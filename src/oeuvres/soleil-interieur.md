@@ -18,4 +18,4 @@ Un bracelet porte-bonheur, pour garder un peu de lumière avec soi. Au centre du
 
 Une jolie idée cadeau, pleine de sens et de douceur.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

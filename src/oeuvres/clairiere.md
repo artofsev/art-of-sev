@@ -20,4 +20,4 @@ Un bracelet qui respire la nature, comme une clairière baignée de lumière au 
 
 À porter seul pour une touche de fraîcheur, ou avec d'autres bracelets pour un esprit bohème.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

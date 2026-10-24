@@ -16,4 +16,4 @@ Un bracelet naturel et apaisant, comme une balade en forêt. Des perles de bois 
 * **Un fermoir tressé à la main :** un nœud coulissant en macramé, pour l'ajuster facilement au poignet.
 * **Pour elle comme pour lui :** un style simple et authentique, qui se porte au quotidien.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

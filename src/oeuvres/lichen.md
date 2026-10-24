@@ -13,9 +13,9 @@ Un bracelet brut et naturel, comme un morceau de forêt au poignet. Sur un tress
 **Les détails qui font la différence**
 
 * **Un tressage fait main :** cordon en coton ciré noir et beige, tressé à la main selon la technique du macramé.
-* **Des éclats de pierre naturelle :** chacun a sa forme et ses nuances, ce qui rend le bracelet unique.
+* **Des éclats de pierre naturelle :** chacun a sa forme et ses nuances, ce qui donne au bracelet tout son caractère.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
 Un bijou nature et authentique, pour elle comme pour lui.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

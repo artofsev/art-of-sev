@@ -20,4 +20,4 @@ Un bracelet tendre et poétique, comme une promenade dans un jardin fleuri. Sur 
 
 Une jolie idée cadeau, douce et pleine de charme.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

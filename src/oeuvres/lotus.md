@@ -18,4 +18,4 @@ Un bracelet apaisant et symbolique. Au cœur du tressage violet et gris perle, u
 
 Une jolie idée cadeau, pleine de douceur et de sens.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

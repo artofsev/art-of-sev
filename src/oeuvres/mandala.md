@@ -16,4 +16,4 @@ Un bracelet coloré et gai, à l'esprit bohème. Le tressage dans un dégradé d
 * **Un fermoir bouton en bois :** pratique et original, avec ses cercles aux couleurs chaudes.
 * **Léger et confortable :** à porter tous les jours, seul ou avec d'autres bracelets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

@@ -16,4 +16,4 @@ Un bracelet gourmand et lumineux, aux couleurs d'une fraise chantilly. Le tressa
 * **Des couleurs franches :** un rouge éclatant qui se remarque, adouci par le blanc.
 * **Ajustable :** grâce à son fermoir coulissant, terminé par deux petites perles rouges.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

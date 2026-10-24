@@ -16,4 +16,4 @@ Un bracelet aux couleurs de dune et de nuit d'été. Son tressage plus épais, b
 * **Un tressage généreux :** plus épais, il se remarque au poignet et se porte aussi bien seul qu'en accumulation.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

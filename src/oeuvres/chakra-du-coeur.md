@@ -19,4 +19,4 @@ Un bracelet chaleureux et symbolique, pour garder le cœur ouvert. Sur un tressa
 
 Un bijou bohème et apaisant, pour elle comme pour lui.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

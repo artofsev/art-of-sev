@@ -16,4 +16,4 @@ Un bracelet graphique et vivifiant, comme les reflets de la mer en profondeur. L
 * **Pour elle comme pour lui :** un style simple et affirmé.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

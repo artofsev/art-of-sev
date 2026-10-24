@@ -16,4 +16,4 @@ Un bracelet frais comme une matinée de printemps. Le tressage crème est soulig
 * **Fin et léger :** parfait seul, ou à accumuler avec d'autres bracelets.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

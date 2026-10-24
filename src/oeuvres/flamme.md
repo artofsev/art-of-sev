@@ -15,4 +15,4 @@ Un fin bracelet plein de peps, aux couleurs d'un feu de cheminée. Le tressage o
 * **Fin et léger :** il se fait oublier au poignet et s'accumule facilement avec d'autres bracelets.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

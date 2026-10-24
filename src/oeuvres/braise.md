@@ -18,4 +18,4 @@ Un bracelet chaleureux et plein d'énergie, comme des braises qui rougeoient. Le
 
 Un bijou porte-bonheur, à offrir ou à s'offrir.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

@@ -19,4 +19,4 @@ Un bracelet fin et lumineux, aux couleurs d'une abeille en plein vol. Le noir pr
 
 À porter seul pour une touche de couleur, ou avec d'autres bracelets fins pour un esprit bohème.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

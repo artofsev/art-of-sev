@@ -10,7 +10,7 @@ ordre: 1
 ---
 Laissez-vous séduire par la douceur poétique de ce bracelet artisanal aux notes chaudes et réconfortantes.
 
-Inspiré par la magie de la saison rousse, ce bijou unique combine la finesse du fait-main et le charme intemporel de la nature. Il est le compagnon idéal pour parfaire un look bohème, chic et authentique.
+Inspiré par la magie de la saison rousse, ce bijou combine la finesse du fait-main et le charme intemporel de la nature. Il est le compagnon idéal pour parfaire un look bohème, chic et authentique.
 
 **Les détails qui font la différence**
 
@@ -22,4 +22,4 @@ Inspiré par la magie de la saison rousse, ce bijou unique combine la finesse du
 
 Que ce soit pour offrir un cadeau plein de poésie ou pour vous faire plaisir, ce bijou apporte une touche de douceur chaleureuse à toutes les tenues. Portez-le seul pour un style épuré, ou associez-le à d'autres bracelets fins pour un effet bohème.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

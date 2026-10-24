@@ -13,8 +13,8 @@ Un bracelet lumineux comme une goutte de miel au soleil. Sur un tressage noir pr
 **Les détails qui font la différence**
 
 * **Un tressage fait main :** cordon en coton ciré noir, tressé à la main selon la technique du macramé.
-* **Des éclats de pierre jaune :** chacun a sa forme et ses nuances, ce qui rend le bracelet unique.
+* **Des éclats de pierre jaune :** chacun a sa forme et ses nuances, ce qui donne au bracelet tout son caractère.
 * **Deux perles spirales argentées :** un motif ancestral, symbole de vie et de mouvement.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

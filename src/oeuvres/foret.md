@@ -18,4 +18,4 @@ Un bracelet nature, chaleureux comme une promenade en sous-bois. Perles rondes, 
 
 Un bijou simple et authentique, aussi bien pour les femmes que pour les hommes.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

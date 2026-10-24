@@ -19,4 +19,4 @@ Un bracelet tout en douceur, aux couleurs d'un matin de printemps. Sur un tressa
 
 Délicat et lumineux, idéal à offrir.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

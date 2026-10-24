@@ -16,4 +16,4 @@ Un bracelet pétillant, comme un zeste de soleil. Le tressage vert acidulé, sou
 * **Fin et léger :** parfait seul, ou à accumuler avec d'autres bracelets colorés.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

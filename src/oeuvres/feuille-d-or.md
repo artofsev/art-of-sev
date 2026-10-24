@@ -17,4 +17,4 @@ Un bracelet doux et automnal, comme une feuille tombée au soleil. Sur un tressa
 * **Des perles dorées :** pour une touche lumineuse et raffinée.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

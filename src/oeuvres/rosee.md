@@ -17,4 +17,4 @@ Un bracelet frais et délicat, comme une goutte de rosée sur une feuille au pet
 * **Des perles dorées :** perles ciselées et deux perles spirales, pour une touche raffinée.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

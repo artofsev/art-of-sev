@@ -18,4 +18,4 @@ Un bracelet tendre et printanier, comme une prairie parsemée de fleurs. Sur un 
 
 Une jolie idée cadeau, toute en douceur.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

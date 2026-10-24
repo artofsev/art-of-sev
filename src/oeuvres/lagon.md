@@ -16,4 +16,4 @@ Un bracelet doux et apaisant, couleur d'eau claire. Son tressage vert d'eau, fin
 * **Fin et léger :** parfait seul, ou à accumuler avec d'autres bracelets pastel.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

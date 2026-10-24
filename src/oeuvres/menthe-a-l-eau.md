@@ -16,4 +16,4 @@ Un bracelet tout en fraîcheur, doux comme une menthe à l'eau en plein été. L
 * **Tout en douceur :** des couleurs pastel faciles à porter, qui se marient avec tout.
 * **Ajustable :** grâce à son fermoir coulissant, terminé par deux petites perles argentées.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

@@ -18,4 +18,4 @@ Un bracelet aux allures de talisman, pour les âmes voyageuses. Au cœur du tres
 
 À porter seul pour un style épuré, ou avec d'autres bracelets pour un esprit bohème.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.

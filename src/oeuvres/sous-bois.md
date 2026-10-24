@@ -16,4 +16,4 @@ Un bracelet frais et lumineux, comme la lumière qui filtre à travers les feuil
 * **Des perles de verre :** dans des tons vert émeraude et vert doré, jusqu'au bout des fils.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-Pièce unique, faite main dans mon atelier de Dardilly.
+Fait main dans mon atelier de Dardilly.
