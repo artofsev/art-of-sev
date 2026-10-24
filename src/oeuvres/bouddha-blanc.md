@@ -18,8 +18,8 @@ Un bracelet pur et lumineux, pour garder un peu de paix avec soi. Sur un tressag
 
 Un bijou doux et lumineux, qui se marie avec tout, pour elle comme pour lui.
 
-**Un joli trio**
+**Une jolie famille**
 
-Ce bracelet fait partie d'une petite famille : Bouddha (orange safran et crème), Bouddha sable (beige) et Bouddha blanc, présentés côte à côte. Même perle sereine, trois couleurs de tressage. À porter seul, en duo ou tous les trois ensemble, ou à partager avec ceux qu'on aime.
+Ce bracelet fait partie d'une petite famille : Bouddha (orange safran et crème), Bouddha sable (beige), Bouddha blanc et Bouddha turquoise, présentés côte à côte. Même perle sereine, quatre couleurs de tressage. À porter seul, à deux ou à plusieurs, ou à partager avec ceux qu'on aime.
 
 Fait main dans mon atelier de Dardilly.

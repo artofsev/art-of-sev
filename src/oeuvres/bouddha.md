@@ -19,8 +19,8 @@ Un bracelet zen et lumineux, pour garder un peu de sérénité avec soi. Sur un 
 
 Un petit porte-bonheur à offrir, ou à s'offrir, pour les jours où l'on a besoin d'un peu de paix intérieure.
 
-**Un joli trio**
+**Une jolie famille**
 
-Ce bracelet fait partie d'une petite famille : Bouddha (orange safran et crème), Bouddha sable (beige) et Bouddha blanc, présentés côte à côte. Même perle sereine, trois couleurs de tressage. À porter seul, en duo ou tous les trois ensemble, ou à partager avec ceux qu'on aime.
+Ce bracelet fait partie d'une petite famille : Bouddha (orange safran et crème), Bouddha sable (beige), Bouddha blanc et Bouddha turquoise, présentés côte à côte. Même perle sereine, quatre couleurs de tressage. À porter seul, à deux ou à plusieurs, ou à partager avec ceux qu'on aime.
 
 Fait main dans mon atelier de Dardilly.
