@@ -7,7 +7,7 @@ const oeuvres = defineCollection({
     z.object({
       titre: z.string(),
       categorie: z.enum(['dessin', 'peinture', 'textile', 'sculpture', 'bijoux', 'objets-deco']),
-      image: image(),
+      image: image().optional(),
       annee: z.number().optional(),
       technique: z.string().optional(),
       dimensions: z.string().optional(),
