@@ -1,6 +1,7 @@
 ---
 titre: "Miel"
 categorie: bijoux
+image: ./miel.jpg
 technique: "Bracelet macramé en coton ciré tressé, éclats de pierre"
 prix: 3
 disponible: true
