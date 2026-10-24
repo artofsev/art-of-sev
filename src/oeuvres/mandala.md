@@ -1,7 +1,6 @@
 ---
 titre: "Mandala"
 categorie: bijoux
-image: ./mandala.jpg
 technique: "Bracelet macramé en coton ciré tressé, fermoir bouton en bois"
 prix: 2
 disponible: true
