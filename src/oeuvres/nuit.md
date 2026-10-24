@@ -1,6 +1,7 @@
 ---
 titre: "Nuit"
 categorie: bijoux
+image: ./nuit.jpg
 technique: "Bracelet macramé en coton ciré tressé"
 prix: 4
 disponible: true
