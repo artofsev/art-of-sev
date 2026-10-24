@@ -1,7 +1,6 @@
 ---
 titre: "Soleil intérieur"
 categorie: bijoux
-image: ./soleil-interieur.jpg
 technique: "Bracelet macramé en coton ciré tressé"
 prix: 2
 disponible: true

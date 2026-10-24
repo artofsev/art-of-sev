@@ -1,7 +1,6 @@
 ---
 titre: "Éclat d'Automne"
 categorie: bijoux
-image: ./eclat-d-automne.jpg
 technique: "Bracelet macramé en coton ciré tressé"
 prix: 5
 disponible: true

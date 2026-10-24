@@ -1,7 +1,6 @@
 ---
 titre: "Nœud celtique"
 categorie: bijoux
-image: ./noeud-celtique.jpg
 technique: "Bracelet macramé en coton ciré tressé"
 prix: 4
 disponible: true

@@ -1,7 +1,6 @@
 ---
 titre: "Terre"
 categorie: bijoux
-image: ./macrame-terre.jpg
 technique: "Bracelet macramé en coton ciré tressé"
 prix: 3
 disponible: true

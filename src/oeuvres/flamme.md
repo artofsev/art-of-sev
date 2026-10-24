@@ -1,7 +1,6 @@
 ---
 titre: "Flamme"
 categorie: bijoux
-image: ./flamme.jpg
 technique: "Bracelet macramé en coton ciré tressé"
 prix: 1
 disponible: true

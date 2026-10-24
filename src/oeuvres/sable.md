@@ -1,7 +1,6 @@
 ---
 titre: "Sable"
 categorie: bijoux
-image: ./sable.jpg
 technique: "Bracelet macramé en coton ciré tressé"
 prix: 2
 disponible: true
