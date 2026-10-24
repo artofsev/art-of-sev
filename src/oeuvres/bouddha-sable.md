@@ -16,8 +16,8 @@ Un bracelet doux et naturel, pour garder un peu de calme avec soi. Sur un tressa
 * **Une perle symbolique :** une tête de Bouddha finement sculptée, au visage paisible.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
-**Un joli duo avec Bouddha**
+**Un joli trio**
 
-Bouddha sable a un frère : Bouddha, présenté juste à côté. Même perle sereine, mais sur un tressage fin orange safran et crème. Portés ensemble, l'un tout en douceur naturelle et l'autre plus lumineux, ils forment un duo zen et chaleureux. À s'offrir, ou à partager avec quelqu'un qu'on aime.
+Ce bracelet fait partie d'une petite famille : Bouddha (orange safran et crème), Bouddha sable (beige) et Bouddha blanc, présentés côte à côte. Même perle sereine, trois couleurs de tressage. À porter seul, en duo ou tous les trois ensemble, ou à partager avec ceux qu'on aime.
 
 Fait main dans mon atelier de Dardilly.
