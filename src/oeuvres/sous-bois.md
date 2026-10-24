@@ -1,6 +1,7 @@
 ---
 titre: "Sous-bois"
 categorie: bijoux
+image: ./sous-bois.jpg
 technique: "Bracelet macramé en coton ciré tressé, perles de verre"
 prix: 4
 disponible: true
