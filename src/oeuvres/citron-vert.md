@@ -1,6 +1,7 @@
 ---
 titre: "Citron vert"
 categorie: bijoux
+image: ./citron-vert.jpg
 technique: "Bracelet macramé en coton ciré tressé"
 prix: 1
 disponible: true
