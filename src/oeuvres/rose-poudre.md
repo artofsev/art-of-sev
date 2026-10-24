@@ -3,7 +3,7 @@ titre: "Rose poudré"
 categorie: bijoux
 image: ./rose-poudre.jpg
 technique: "Bracelet macramé en coton ciré tressé, perles"
-prix: 3
+prix: 4
 disponible: true
 accueil: true
 ordre: 47

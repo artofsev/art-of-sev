@@ -3,7 +3,7 @@ titre: "Bouddha sable"
 categorie: bijoux
 image: ./bouddha-sable.jpg
 technique: "Bracelet macramé en coton ciré tressé, perle métal"
-prix: 2
+prix: 3
 disponible: true
 accueil: false
 ordre: 48

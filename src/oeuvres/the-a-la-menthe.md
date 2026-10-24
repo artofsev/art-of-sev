@@ -3,7 +3,7 @@ titre: "Thé à la menthe"
 categorie: bijoux
 image: ./the-a-la-menthe.jpg
 technique: "Bracelet macramé en coton ciré tressé"
-prix: 1
+prix: 2
 disponible: true
 accueil: false
 ordre: 52

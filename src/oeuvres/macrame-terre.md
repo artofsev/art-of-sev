@@ -2,7 +2,7 @@
 titre: "Terre"
 categorie: bijoux
 technique: "Bracelet macramé en coton ciré tressé"
-prix: 3
+prix: 2
 disponible: true
 accueil: false
 ordre: 3
