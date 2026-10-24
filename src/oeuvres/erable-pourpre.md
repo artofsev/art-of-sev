@@ -1,6 +1,7 @@
 ---
 titre: "Érable pourpre"
 categorie: bijoux
+image: ./erable-pourpre.jpg
 technique: "Bracelet macramé en coton ciré tressé, perles"
 prix: 5
 disponible: true
