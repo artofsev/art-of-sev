@@ -1,7 +1,6 @@
 ---
 titre: "Forêt"
 categorie: bijoux
-image: ./foret.jpg
 technique: "Bracelet en perles de bois"
 prix: 5
 disponible: true

@@ -1,7 +1,6 @@
 ---
 titre: "Café crème"
 categorie: bijoux
-image: ./cafe-creme.jpg
 technique: "Bracelet macramé en coton ciré tressé"
 prix: 2
 disponible: true
