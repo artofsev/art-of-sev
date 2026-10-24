@@ -1,7 +1,6 @@
 ---
 titre: "Mangue et olive"
 categorie: bijoux
-image: ./mangue-olive.jpg
 technique: "Bracelet macramé en coton ciré tressé"
 prix: 1
 disponible: true
