@@ -1,6 +1,7 @@
 ---
 titre: "Lavande"
 categorie: bijoux
+image: ./lavande.jpg
 technique: "Bracelet macramé en coton ciré tressé"
 prix: 2
 disponible: true
