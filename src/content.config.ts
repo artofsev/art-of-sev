@@ -6,7 +6,7 @@ const oeuvres = defineCollection({
   schema: ({ image }) =>
     z.object({
       titre: z.string(),
-      categorie: z.enum(['dessin', 'peinture', 'textile', 'sculpture', 'bijoux', 'objets-deco']),
+      categorie: z.enum(['dessin', 'peinture', 'textile', 'sculpture', 'bijoux', 'objets-deco', 'divers']),
       image: image().optional(),
       annee: z.number().optional(),
       technique: z.string().optional(),

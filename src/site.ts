@@ -19,4 +19,5 @@ export const CATEGORIES = [
   { id: 'sculpture', nom: 'Sculpture', intro: 'Des formes modelées à la main, en argile, plâtre ou terre cuite.' },
   { id: 'bijoux', nom: 'Bijoux', intro: 'Des bijoux colorés et faits main.' },
   { id: 'objets-deco', nom: 'Objets décoratifs', intro: 'De petits objets peints et façonnés pour égayer la maison.' },
+  { id: 'divers', nom: 'Divers', intro: 'Des créations qui ne rentrent dans aucune case : petites trouvailles et pièces originales.' },
 ] as const;
