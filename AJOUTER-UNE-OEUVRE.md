@@ -50,7 +50,7 @@ C'est tout. Attendez 1 à 2 minutes et rechargez le site.
 | Ligne | À quoi ça sert | Valeurs possibles |
 |---|---|---|
 | `titre` | Le nom de l'œuvre | Entre guillemets `"…"` |
-| `categorie` | La catégorie de la galerie | `dessin`, `peinture`, `textile`, `sculpture`, `bijoux`, `objets-deco` (exactement comme ça) |
+| `categorie` | La catégorie de la galerie | `dessin`, `peinture`, `textile`, `sculpture`, `bijoux`, `objets-deco`, `divers` (exactement comme ça) |
 | `image` | La photo | `./` suivi du nom exact de la photo |
 | `technique` | Facultatif | Entre guillemets |
 | `dimensions` | Facultatif | Entre guillemets |
