@@ -1,6 +1,7 @@
 ---
 titre: "Prairie"
 categorie: bijoux
+image: ./prairie.jpg
 technique: "Bracelet macramé en coton ciré tressé"
 prix: 1
 disponible: true
