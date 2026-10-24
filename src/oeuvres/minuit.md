@@ -16,4 +16,8 @@ L'élégance de la simplicité. Ce bracelet tout en noir, au tressage serré et 
 * **Intemporel :** il s'accorde avec toutes les tenues, pour elle comme pour lui.
 * **Ajustable :** grâce à son fermoir coulissant, il s'adapte à tous les poignets.
 
+**Un joli duo avec Neige**
+
+Minuit a un jumeau : Neige, présenté juste à côté. Même tressage, même simplicité, mais tout en blanc lumineux. Portés ensemble, l'un mystérieux et l'autre lumineux, ils forment un duo élégant et intemporel, comme la nuit et le jour. À s'offrir, ou à partager avec quelqu'un qu'on aime.
+
 Fait main dans mon atelier de Dardilly.
